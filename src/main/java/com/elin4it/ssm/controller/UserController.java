@@ -34,7 +34,7 @@ public class UserController {
         //将得到的用户列表内容添加到ModelAndView中
         modelAndView.addObject("users",users);
         //设置响应的jsp视图
-        modelAndView.setViewName("findUser");
+        modelAndView.setViewName("user/findUser");
 
         return modelAndView;
     }
